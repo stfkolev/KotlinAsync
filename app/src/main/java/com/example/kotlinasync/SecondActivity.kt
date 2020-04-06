@@ -72,6 +72,7 @@ class SecondActivity : AppCompatActivity() {
                         activity.textView.text = "Failure"
                     }
 
+                    activity.resultList.clear()
                     activity.progressBar.visibility = View.GONE
                 }
             }
